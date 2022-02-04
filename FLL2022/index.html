@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2bb62852635d4ff1a49780763f383fc8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_2bb62852635d4ff1a49780763f383fc8" ></div>
+        
+</body>
+<script>    
+    
+            var map_2bb62852635d4ff1a49780763f383fc8 = L.map(
+                "map_2bb62852635d4ff1a49780763f383fc8",
+                {
+                    center: [-23.861813, -46.414284],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9ba4cc058c684c58a313415a4e833202 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2bb62852635d4ff1a49780763f383fc8);
+        
+    
+            var circle_marker_51d5a9cd7e6642858b710d6a978a9dea = L.circleMarker(
+                [-23.861813, -46.414284],
+                {"bubblingMouseEvents": true, "color": "#90E0EF", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90E0EF", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_2bb62852635d4ff1a49780763f383fc8);
+        
+    
+        var popup_a40ee5c6b2ae45a0abaa4c1596090528 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5588553967904732915b9e976a8a8f92 = $(`<div id="html_5588553967904732915b9e976a8a8f92" style="width: 100.0%; height: 100.0%;">Caminhão_id_0 I can add somes like temperature and average speed.</div>`)[0];
+            popup_a40ee5c6b2ae45a0abaa4c1596090528.setContent(html_5588553967904732915b9e976a8a8f92);
+        
+
+        circle_marker_51d5a9cd7e6642858b710d6a978a9dea.bindPopup(popup_a40ee5c6b2ae45a0abaa4c1596090528)
+        ;
+
+        
+    
+    
+            var circle_marker_00f02a2dd75e4ecfa4ae7f8f68dfa324 = L.circleMarker(
+                [-23.857492, -46.410722],
+                {"bubblingMouseEvents": true, "color": "#03045E", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#03045E", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_2bb62852635d4ff1a49780763f383fc8);
+        
+    
+        var popup_046ba5440f8e4b35966cb0c02c1301ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_327c4e267e8d4b9294496a93353f2979 = $(`<div id="html_327c4e267e8d4b9294496a93353f2979" style="width: 100.0%; height: 100.0%;">Caminhão_id_1 I can add somes like temperature and average speed.</div>`)[0];
+            popup_046ba5440f8e4b35966cb0c02c1301ab.setContent(html_327c4e267e8d4b9294496a93353f2979);
+        
+
+        circle_marker_00f02a2dd75e4ecfa4ae7f8f68dfa324.bindPopup(popup_046ba5440f8e4b35966cb0c02c1301ab)
+        ;
+
+        
+    
+    
+            var circle_marker_c21ac597e79d411ba7c14ed8167a2935 = L.circleMarker(
+                [-23.852233, -46.405679],
+                {"bubblingMouseEvents": true, "color": "#CAF0F8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CAF0F8", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_2bb62852635d4ff1a49780763f383fc8);
+        
+    
+        var popup_9bc2332ec5824b268802349aee89a642 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b592ffdf52c1445598986f7b2c1a151d = $(`<div id="html_b592ffdf52c1445598986f7b2c1a151d" style="width: 100.0%; height: 100.0%;">Caminhão_id_2 I can add somes like temperature and average speed.</div>`)[0];
+            popup_9bc2332ec5824b268802349aee89a642.setContent(html_b592ffdf52c1445598986f7b2c1a151d);
+        
+
+        circle_marker_c21ac597e79d411ba7c14ed8167a2935.bindPopup(popup_9bc2332ec5824b268802349aee89a642)
+        ;
+
+        
+    
+</script>
